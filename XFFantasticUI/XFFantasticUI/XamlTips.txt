@@ -1,0 +1,8 @@
+********** TopicsPage.xaml *************
+
+FlexLayout.Basis="{OnIdiom Phone='25%',
+                           Tablet='25%'}"				   
+						   
+FlexLayout.Basis="{Binding ., Converter={StaticResource TopicFlexCalculate}}"
+
+FlexLayout.Basis="{Binding BindingContext.SubCategories, Source={x:Reference MyFlexLayout}, Converter={StaticResource TopicFlexCalculate}}"
