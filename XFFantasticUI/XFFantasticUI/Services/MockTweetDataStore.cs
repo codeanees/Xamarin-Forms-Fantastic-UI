@@ -57,6 +57,26 @@ namespace XFFantasticUI.Services
                 },
                 new Topic
                 {
+                    MainCategoryName = "Technology",
+                    SubCategories =
+                        new List<SubCategory>()
+                        {
+                            new SubCategory { Name = "Xamarin Forms" },
+                            new SubCategory { Name = "MAUI" },
+                            new SubCategory { Name = "Blazor" },
+                            new SubCategory { Name = "WPF" },
+                            new SubCategory { Name = "WCF" },
+                            new SubCategory { Name = "Windows Forms" },
+                            new SubCategory { Name = "Blazor 2" },
+                            new SubCategory { Name = "WPF 2" },
+                            new SubCategory { Name = "WCF 2" },
+                            new SubCategory { Name = "Windows Forms 3" },
+                            new SubCategory { Name = "Windows Forms 3" },
+                        },
+                    ViewAllEnabled= true
+                },
+                new Topic
+                {
                     MainCategoryName = "Gaming",
                     SubCategories =
                         new List<SubCategory>()
